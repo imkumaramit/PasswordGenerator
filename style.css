@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #CBA0AE;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-box {
+    background-color: #80558C;
+    border: 2px solid #80558C;
+    width: 400px;
+    box-shadow: 0px 0px 20px 3px #80558C;
+}
+
+.password-box {
+    padding: 1rem;
+    color: white;
+}
+
+.box {
+    background-color: #CBA0AE;
+    display: flex;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+    position: relative;
+    font-size: 2rem;
+}
+
+.box #gen-pass {
+    padding: 0px 20px;
+}
+
+.box button {
+    background-color: antiquewhite;
+    border: 1px solid #80558C;
+    padding: 3px;
+    border-radius: 4px;
+    position: absolute;
+    top: 3%;
+    right: 0.2%;
+    opacity: 0;
+    transition: opacity 0.4s ease;
+}
+
+.box:hover button {
+    opacity: 1;
+}
+
+.parameter {
+    padding: 1rem;
+
+}
+
+.form-control {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+.generate {
+    display: flex;
+    background-color: #E4D192;
+    border: none;
+    border-radius: 300px;
+    margin: auto;
+    padding: 15px 40px;
+    box-shadow: 0px 0px 5px 1px #CBA0AE;
+
+
+}
